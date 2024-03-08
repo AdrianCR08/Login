@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
     <title>Home</title>
 </head>
 
 <body>
     <div class="nav">
         <div class="logo">
-            <p>Logo</p>
+            <p><a href="home.php">Logo</a></p>
         </div>
         <div class="right-links">
             <a href="#">Change Profile</a>

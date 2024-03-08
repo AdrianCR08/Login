@@ -2,14 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=l">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Register</title>
+    <link rel="stylesheet" href="style/media.css">
+
+    <title>Change Profile</title>
 </head>
 <body>
+    <div class="nav">
+        <div class="logo">
+            <p><a href="home.php">Logo</a></p>
+        </div>
+        <div class="right-links">
+            <a href="#">Change Profile</a>
+            <a href="logout.php"><button class="btn">Log Out</button></a>
+
+        </div>
+    </div>
     <div class="container">
         <div class="box form-box">
-            <header>Sign Up</header>
+            <header>Change Profile</header>
             <form action="" method="post">
                 <div class="field input">
                     <label for="username">Username</label>
@@ -26,16 +38,9 @@
                     <input type="number" name="age" id="age" autocomplete="off" required>
                 </div>
 
-                <div class="filed input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
 
                 <div class="field">
-                    <input type="submit" class="btn" name="submit"  value="Login" required>
-                </div>
-                <div class="links">
-                    Alredy a member? <a href="index.html">Sign In</a>
+                    <input type="submit" class="btn" name="submit"  value="Update" required>
                 </div>
             </form>
         </div>

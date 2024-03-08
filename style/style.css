@@ -108,8 +108,15 @@ body {
 .logo{
     font-size: 25px;
     font-weight: 900;
-
+    text-decoration: none;
+    color: #000;
 }
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+
 
 .right-links a{
     padding: 0 10px;
@@ -129,5 +136,16 @@ main{
 
 }
 
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+
+}
 
 

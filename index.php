@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=l">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
     <title>Login</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
                     <input type="submit" class="btn" name="submit"  value="Login" required>
                 </div>
                 <div class="links">
-                    Don't have an account? <a href="register.html">Sign Up Now</a>
+                    Don't have an account? <a href="register.php">Sign Up Now</a>
                 </div>
             </form>
         </div>
